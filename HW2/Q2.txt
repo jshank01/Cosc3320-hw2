@@ -1,0 +1,16 @@
+#Insert all elements of list A into the set S
+Set S
+
+# Insert all elements of list A into the set S
+for element in A do
+    S.add(element)
+
+# Check each element of list A into the set S
+common_found = False
+for element in B do
+    if S.contains(element) then
+        print("Lists have a common element)
+        common_found = TRUE
+        BREAK
+    if not common_found 
+        print("Lists do not have a common element")
